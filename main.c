@@ -8,9 +8,9 @@
   *
   *
   * Purpose         : An external thermistor is read using DMA on ADC3, input 11.
-  * 				          The Internal die temperature is read using DMA on ADC1.
-  * 				          Values are continuously read into an array of 100 values and sampled.
-  * 				          The orange LED continuously blinks at a half-second rate.
+  * 		      The Internal die temperature is read using DMA on ADC1.
+  * 		      Values are continuously read into an array of 100 values and sampled.
+  * 		      The orange LED continuously blinks at a half-second rate.
   *
   ******************************************************************************
   */
