@@ -69,7 +69,7 @@ uint32_t die_array[100];
 uint32_t therm_value;
 uint32_t die_value;
 
-float V_sense;					// variable to store temperature math
+float V_sense;				// variable to store temperature math
 float thermistor_tempC;			// variables to store final result
 float diesensor_tempC;
 /* USER CODE END 0 */
