@@ -128,11 +128,10 @@ int main(void)
 	  // samples are averaged
 	  therm_value /= 100;
 
-	  // converts thermistor value to a temperature
-
-	  //   ADC Value to Temperature for NTC Thermistor.
+	  //   Source for the thermistor_tempC line of code: 
 	  //   Author: James Sleeman http://sparks.gogo.co.nz/ntc.html
 	  //
+	  //   Converts thermistor value to a temperature in Celsius
 	  //   Thermistor characteristics:
 	  //   Nominal Resistance 104000 at 25°C
 	  //   Beta Value 3950
